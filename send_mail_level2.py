@@ -6,7 +6,7 @@ sender_password = "12345673"
 
 reciver = "example2@gmail.com"
 message = """
-    Hello, how are you
+    Hello, how are you huys
 """
 smtp = smtplib.SMTP_SSL('smtp.gmail.com', port='465')
 smtp.login(user=sender, password=sender_password)
